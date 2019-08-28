@@ -1,0 +1,4 @@
+julia -E "using Pkg; Pkg.add(PackageSpec(name=\"CxxWrap\", version=\"0.8.2\"))"
+julia -E "using Pkg; Pkg.add(PackageSpec(name=\"Xtensor\", version=\"0.8.2\"))"
+julia -E "using Pkg; Pkg.add(PackageSpec(name=\"IJulia\"))"
+julia -E "using Pkg; pkg\"precompile\""

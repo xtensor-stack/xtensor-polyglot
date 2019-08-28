@@ -1,0 +1,21 @@
+name: xtensor-polyglot
+channels:
+  - conda-forge
+dependencies:
+  # xtensor and friends
+  - xtensor=0.20.8
+  - xtensor-python
+  - xtensor-julia
+  - xtensor-r
+  - libcxxwrap-julia
+  # Language bindings
+  - r-xtensor
+  # kernels
+  - allthekernels
+  - xeus-cling
+  - r-irkernel
+  - ipykernel
+  # cmake is required to build Xtensor.jl
+  - cmake
+  # Manually installed in post-build:
+  # CxxWrap, IJulia, Xtensor.jl
