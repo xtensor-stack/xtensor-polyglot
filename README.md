@@ -14,7 +14,7 @@ To launch the demo, simply click on the binder badge in the header or on the lin
 
 [xtensor](https://github.com/xtensor-stack/xtensor/) is a C++ library meant for numerical analysis with multi-dimensional array expressions. The xtensor framework includes several components which can be used to operate on the data structures of the main languages of data sciences, [xtensor-python](https://github.com/xtensor-stack/xtensor-python/) for Python and NumPy, [xtensor-julia](https://github.com/xtensor-stack/xtensor-julia/) for Julia, and [xtensor-r](https://github.com/xtensor-stack/xtensor-r/) for the R programming language.
 
-In the example notebook, we write a simple numerical function in pure C++, which is first tested in the [xeus-cling](https://github.com/QuantStack/xeus-cling) Jupyter kernel. We then expose the function to Python, R, and Julia using the xtensor language bindings.
+In the example notebook, we write a simple numerical function in pure C++, which is first tested in the [xeus-cling](https://github.com/jupyter-xeus/xeus-cling) Jupyter kernel. We then expose the function to Python, R, and Julia using the xtensor language bindings.
 
 The example notebook is powered by the [allthekernels](https://github.com/minrk/allthekernels) project, a multiplexer Jupyter kernel which can be used to switch between all the kernels installed in a Jupyter environment.
 
