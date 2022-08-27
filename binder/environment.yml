@@ -3,7 +3,7 @@ channels:
   - conda-forge
 dependencies:
   # xtensor and friends
-  - xtensor=0.24.2
+  - xtensor=0.24.3
   - xtensor-python
   - xtensor-julia
   - xtensor-r
